@@ -1,15 +1,22 @@
-Getting a MicroPython REPL prompt
+Becoming a Semahpore Network Host
 =================================
+What Is A Semaphore Host? 
+A Semaphore Host is an individual or entity that deploys physical nodes and radio hardware to provide Semaphore Network decentralized internet services to end-users. 
 
-REPL stands for Read Evaluate Print Loop, and is the name given to the
-interactive MicroPython prompt that you can access on the ESP8266.  Using the
-REPL is by far the easiest way to test out your code and run commands.
+What Are The Prerequisites to Become a Host? 
+Hosts provide two types of physical world capital to the network:
 
-There are two ways to access the REPL: either via a wired connection through the
-UART serial port, or via WiFi.
+Physical Space:
+In the case of wireless service this is usually a space high up and with the clearest Line-of-Sight to potential end-users. "Vertical Infrastructure"
 
-REPL over the serial port
--------------------------
+Internet Access:
+A host's Semaphore radio unit will need a general outbound internet connection. Please check with your providers ToS 
+
+Radio Hardware:
+Various combinations of radio hardware and deployments are left up to hosts. Semaphore Network supports BOTH COTS (common off the shelf) and FOSS (FPGA + SDR) radio frontends for hosting network coverage. You are free to choose what works best for your wallet, local DAO and radio frequency regulations; up to and including running completely FOSS hardware. 
+
+Becoming a Semahpore Network User
+=================================
 
 The REPL is always available on the UART0 serial peripheral, which is connected
 to the pins GPIO1 for TX and GPIO3 for RX.  The baudrate of the REPL is 115200.
