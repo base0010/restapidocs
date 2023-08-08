@@ -86,14 +86,35 @@ ______________________
 
 
 
-Becoming a Semahpore Network User
+Using The Network
 =================================
 
-You can use the Semaphore Network as a user on both cellular (LTE/5G) and WiFi (soon) protocols. 
+This document will focus on how to subscribe the internet services provided by decentralized Semaphore Network Hosts. Subscribers will need two things to successfuly enjoy the network services. 
 
-Using the Semaphore Network Cellular Service:
-To become a Semaphore network subscriber you will need to use the Subscriber DApp to 
+*User Equipment*
+  Subscribers will need a device to use; users can bring their own COTS LTE/5G user equpiment; this can be any cellphone and modem user equipment      that supports LTE /5G
 
-Requirements:
-Obtaining or creating a Semaphore Network ETHSim; this will serve as a hardware wallet and contains the authentication keys that will subscribers on the network
+  * Currently the user equipment must have a physical [mini/nano] SIM-card slot to host the Semaphore USIM.
+  * You should also confirm that your equipment has support for bands that local hosts provide service on.
+
+*Semaphore USIM*
+  Subscribers will also need to obtain or create their own Semaphore USIM to connect to the Network. You can buy one from us at                        https://shop.semaphore.network or bring your own compatible javacard and upload our CAP file.
+
+
+**Setup**
+______________________
+
+*Phone/ User Equipment Setup*
+  Generally speaking you shouldn't need to configure your phone or user equipment in any particular way as the majority of configuration details,       and authentication will be performed by the USIM 
+
+
+*Semaphore USIM Setup*
+  You can use an external card reader and the Subscriber Setup CLI to generate your Subscriber Authentication Keypair. The program will output the     result of this public key so that you can put it in the onchain registry. 
+
+  In the future you can use the STK application inside your phone's menu to do this as well. 
+
+*Registering Semaphore USIM On-Chain*
+  The last step to subscribe to the network is to add your Subscriber Authentication Keypair to the on-chain registry. To do this visit
+
+  * https://app.semaphore.network/subscribe
 
