@@ -3,21 +3,21 @@ Becoming a Semahpore Network Host
 
 **What Is A Semaphore Network Host?**
 
-A Semaphore Network Host is an individual, DAO or entity that deploys host node and radio hardware to help provide Semaphore Network's decentralized internet service and "coverage" to subscribers. 
+A Semaphore Network Host is an individual, DAO or entity that deploys host node and radio hardware to help provide Semaphore Network's decentralized internet services and Universal Basic Internet "coverage" to subscribers. 
 
 **What are the Prerequisites to Become a Host?**
-Hosts need to provide three basic types that will be utilized to provide dentralized internet services to Semaphore Network Subscribers.
+
+Hosts need to provide three basic types of capital that will be utilized to provide dentralized internet services to Semaphore Network Subscribers.
 
 Physical Space
-  Hosts will need a physical place to put the radio units, host nodes can stay inside or even be hosted remotely.
-  Generally, radio untis will need to be placed in an outdoor space high up and with the clearest Line-of-Sight to provide maximum efficienty   for Subscribers. Physically, 3ft^3 is enough with extra for a multi-kilometer deployment
+  Hosts will need a physical place to put the radio units. While host nodes can stay inside or even be hosted remotely;
+  Generally, radio units will need to be placed in an outdoor space high up and with the clearest Line-of-Sight to provide maximum efficienty for Subscribers. Physically, a 3ft^3 area is enough with extra for a multi-kilometer deployment
 
 Internet Access
   In order to access web2 internet services (traditional internet) a host will need to provide an outbound internet connection.
-  The outbound connection can come from a variety of sources and providers. In the future web3-only and IPFS-only nodes can be supported. 
-
+  The outbound connection can come from a variety of sources and providers.
 Radio and Node Hardware
-  Various combinations of radio and node hardware and deployments are left up to hosts. But the basic requirements are as follows;
+  Various combinations of radio and node hardware deployments are left up to hosts. But the basic requirements are as follows;
 
 
 **Hardware**
@@ -32,12 +32,9 @@ Radio Hardware
 
 Hardware Freedom
   You are free to choose what works best for your wallet, local DAO community and country's radio frequency regulations; up to and including running 
-  a completely FOSS hardware stack.
+  a completely FOSS hardware stack. Generally speaking any eNodeB hardware (cellular equivilant of an access point) is compatible with the Semaphore Network Cellular Protocol; 
 
-
-Generally speaking any eNodeB hardware (cellular equivilant of an access point) is compatible with the Semaphore Network Cellular Protocol; 
-
-[Future: WiFi spec requires 802.11w and wpa_supplicant].
+[Future: WiFi spec requires openwrt/embedded Linux, 802.11w and hostapd].
 
 
 **We do not gatekeep across hardware, locality or RF frontend**
