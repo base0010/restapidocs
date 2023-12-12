@@ -11,7 +11,8 @@ Hosts need to provide three basic types of capital that will be utilized to prov
 
 Physical Space
   Hosts will need a physical place to put the radio units. While host nodes can stay inside or even be hosted remotely;
-  Generally, radio units will need to be placed in an outdoor space high up and with the clearest Line-of-Sight to provide maximum efficienty for Subscribers. Physically, a 3ft^3 area is enough with extra for a multi-kilometer deployment
+  Generally, radio units will need to be placed in an outdoor space high up and with the clearest Line-of-Sight to provide maximum efficienty for Subscribers. Physically, a 3ft^3 area is enough with extra for a multi-kilometer deployment.
+Your physical space will also determine the legal requirements and regulations for radio emissions. Please comply with your local laws. 
 
 Internet Access
   In order to access web2 internet services (traditional internet) a host will need to provide an outbound internet connection.
