@@ -119,3 +119,37 @@ ______________________
 
   * https://app.semaphore.network/subscribe
 
+
+ETHSIM Security+
+===============================
+
+Semaphore Network leverages our unique ETHSIM wallet technology to enhance cellular radio link security and decentralize AAA (authentication, administration, and accounting) processes inside telco networks. Instead of relying on the traditional cellular network authentication system called MILENAGE, we introduce modern asymmetric PKI cryptography via ECDH with Ethereum-native cryptography (secp256k1 & altbn128).
+
+Introduction
+------------
+
+Semaphore Network's approach to security and decentralization in telecommunications is rooted in addressing the limitations of the traditional AAA and MILENAGE framework. By implementing hardware wallet security and smart contracts, we ensure a secure, soverign and decentralized telecommunications environment, even on devices as simple as flip phones.
+
+Challenges with Traditional Systems
+------------------------------------
+
+MILENAGE, the conventional cellular network authentication system, necessitates a carrier-owned centralized database where all private key material is stored. This centralized approach poses significant security risks, as it places the security of user data in the hands of a few large telecommunications companies, which are prone to exploitation.
+
+Key Improvements
+----------------
+
+Semaphore Network addresses these challenges through several key improvements:
+
+1. **Ownership of Private Keys**: We move the private key out of a centralized database and into a sovereign ETHSIM wallet owned by the user. This eliminates vulnerabilities associated with SIM swaps and eavesdropping.
+
+2. **On-chain Subscriber Registry**: Subscriber public keys are stored on-chain in an immutable sovereign subscriber registry, similar to a telco HSS (Home Subscriber Server). This allows users to activate services, top-up their accounts with cryptocurrency, and perform other functions without the need for intermediaries, including potentially unreliable customer service.
+
+3. **Global Roaming Subscribership**: By storing subscriber information on-chain, Semaphore Network ensures a truly global roaming subscribership, enhancing accessibility and connectivity for users worldwide.
+
+Conclusion
+----------
+
+Semaphore Network's utilization of ETHSIM technology and innovative cryptographic techniques represents a significant advancement in the field of telecommunications security and decentralization. By addressing the limitations of traditional systems, we provide users with greater control over their data and a more secure telecommunications experience.
+
+For more information, please refer to our `documentation <link_to_your_documentation_here>`_.
+
