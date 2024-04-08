@@ -123,7 +123,7 @@ ______________________
 ETHSIM Security+
 ===============================
 
-Semaphore Network leverages our unique ETHSIM wallet technology to enhance cellular radio link security and decentralize AAA (authentication, administration, and accounting) processes inside telco networks. Instead of relying on the traditional cellular network authentication system called MILENAGE, we introduce modern asymmetric PKI cryptography via ECDH with Ethereum-native cryptography (secp256k1 & altbn128).
+Semaphore Network leverages our unique ETHSIM wallet technology to enhance cellular radio link security and decentralize AAA (authentication, administration, and accounting) processes inside telco networks. Instead of relying on the traditional cellular network authentication system called `MILENAGE <https://www.sharetechnote.com/html/Handbook_LTE_Authentication.html>`_   we introduce modern asymmetric PKI cryptography via ECDH with Ethereum-native cryptography (secp256k1 & altbn128).
 
 Introduction
 ------------
@@ -140,7 +140,7 @@ Key Improvements
 
 Semaphore Network addresses these challenges through several key improvements:
 
-1. **Ownership of Private Keys**: We move the private key out of a centralized database and into a sovereign ETHSIM wallet owned by the user. This eliminates vulnerabilities associated with SIM swaps and eavesdropping.
+1. **Ownership of Private Keys**: We move the private key out of a centralized database and into a sovereign physical ETHSIM wallet owned by the user. This eliminates vulnerabilities associated with SIM swaps and eavesdropping, and empowers users with a full Ethereum hardware wallet based on proven secure element technology, the same as popular hardware wallet brands such as Ledger, Grid+ & Status Keycard. 
 
 2. **On-chain Subscriber Registry**: Subscriber public keys are stored on-chain in an immutable sovereign subscriber registry, similar to a telco HSS (Home Subscriber Server). This allows users to activate services, top-up their accounts with cryptocurrency, and perform other functions without the need for intermediaries, including potentially unreliable customer service.
 
