@@ -3,7 +3,8 @@ Hosting The Network
 
 **What Is A Semaphore Network Host?**
 
-A Semaphore Network Host is an individual, DAO or entity that deploys host node and radio hardware to help provide Semaphore Network's Universal Basic Internet "coverage" to subscribers. 
+A Semaphore Network Host is an individual, DAO, or entity deploying host node and radio hardware to provide Semaphore Network's Universal Basic Internet coverage.
+
 
 **Prerequisites to Become a Host**
 
