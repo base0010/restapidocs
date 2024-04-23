@@ -65,13 +65,12 @@ ______________________
    Run the forked telco CN and bridge middleware on hardware of your choosing ex. Raspberry Pi, binaries provided for aarch64 and x86_64
 
    The CN is currently implemented in a fork of SRSRAN (srsepc) found here: 
-   
    `SrsEPC Fork <https://github.com/SemaphoreNetwork/semaphore_network_epc>`_
 
    Please follow below for more setup details.
    `SrsEPC requirements <https://docs.srsran.com/projects/4g/en/next/app_notes/source/pi4/source/index.html>`_
 
-   You will also need to run the python hss bridge middleware alongside the forked HSS above
+   You will also need to run the python hss bridge middleware alongside the forked CN above
    `Semaphore Network HSS Bridge <https://github.com/SemaphoreNetwork/semaphore_network_hss_bridge>`_
 
    
