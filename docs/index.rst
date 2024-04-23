@@ -54,21 +54,21 @@ Hardware Freedom
 
 *Figure: A variety of COTS and FLOSS Radio flavors.*
 
-**We do not gatekeep across hardware, locality or RF frontend**
+**We do not gatekeep across hardware, locality nor RF frontend**
 
 
 **Setup**
 ______________________
 
-**Setup**
-
 - **Node Setup:**
-  - Run EPC/CN and bridge middleware on hardware of your choosing ex. Raspberry Pi, binaries provided for aarch64 and x86_64
 
-   The EPC/CN is currently implemented in a fork of SRSRAN (srsepc) found here: 
-   `SrsEPC Fork https://github.com/SemaphoreNetwork/semaphore_network_epc`_
+   Run the forked telco CN and bridge middleware on hardware of your choosing ex. Raspberry Pi, binaries provided for aarch64 and x86_64
 
-   Please follow below for more granular details and  setup.
+   The CN is currently implemented in a fork of SRSRAN (srsepc) found here: 
+   
+   `SrsEPC Fork <https://github.com/SemaphoreNetwork/semaphore_network_epc>`_
+
+   Please follow below for more setup details.
    `SrsEPC requirements <https://docs.srsran.com/projects/4g/en/next/app_notes/source/pi4/source/index.html>`_
 
    You will also need to run the python hss bridge middleware alongside the forked HSS above
@@ -77,11 +77,15 @@ ______________________
    
 
 - **Radio Unit Hardware Setup:**
+
+
   - Follow manufacturer's instructions for installation and mounting.
   - Configure radio unit's EPC/CN address to match that of the Node EPC/CN above.
 
 - **Semaphore Host Registration:**
-  - Register host through the bridge middleware or register your pubkey through the DApp at `Semaphore Network Host DAO <https://app.semaphore.network/host>`_
+
+
+  - (Optional) Manually register host through the bridge middleware or register your pubkey through the DApp at `Semaphore Network Host DAO <https://app.semaphore.network/host>`_
 
 
 
@@ -108,11 +112,11 @@ This section focuses on subscribing to decentralized Semaphore Network Hosts' in
 For ease of use, you can automatically register your Semaphore ETHSIM by being in range of a network host. Alternaively we have a manual DApp that provides this functionality should you not be in a covered area.
 
 - **Semaphore ETHSIM Setup:**
-  - Users must insert the Semaphore Network USIM into their phone
+  - Users must insert the Semaphore Network ETHSIM into their phone
 
 - **Registering Semaphore ETHSIM On-Chain:**
   - User must visit be near a host for initial OTA registration, OR they can do it through the DApp below
-  - Add Subscriber Authentication Keypair to on-chain registry at `Semaphore Network Subscribe <https://app.semaphore.network/subscribe>`_
+  - (Optional) Manually Add Subscriber Authentication Keypair to on-chain registry at `Semaphore Network Subscribe <https://app.semaphore.network/subscribe>`_
 
 
 ETHSIM Security+
