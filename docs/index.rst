@@ -21,12 +21,12 @@ A Semaphore Network Host is an individual, DAO, or entity deploying host node an
 **Hardware Requirements:**
 
 - **Node Hardware:** 
-   The job of the node hardware is to monitor the on-chain Subscriber Registry and a small CN
-    this can run on minimal hardware like Raspberry Pi.
+   The job of the node hardware is to monitor the on-chain Subscriber Registry and run a small CN
+   this can run on minimal hardware like Raspberry Pi.
 
 - **Radio Hardware:** 
    The radio hardware will provide connectivity to subscribers;
-    we support COTS or FLOSS options both band and region agnostic.
+   we support COTS or FLOSS options both band and region agnostic.
 
 =======================================
 List of Tested Radio Host Hardware (eNodeB)
@@ -50,7 +50,7 @@ Hardware Freedom
 .. image:: ./hwfreedom_antennas.png
    :width: 600
 
-*Figure: A variety of COTS and FLOSS Radio Options.*
+*Figure: A variety of COTS and FLOSS Radio flavors.*
 
 **We do not gatekeep across hardware, locality or RF frontend**
 
