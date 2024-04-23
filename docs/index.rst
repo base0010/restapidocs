@@ -24,7 +24,9 @@ Hardware Freedom
   You are free to choose what works best for your wallet, local DAO size and country's radio frequency regulations; up to and including running 
   a completely FLOSS hardware stack. Macro to femto sized setups.
 
-![Hardware Freedom](hwfreedom_antennas.png)
+.. image:: ./hwfreedom_antennas.png
+   :width: 600
+
 *Figure: A variety of front end options.*
 
 **We do not gatekeep across hardware, locality or RF frontend**
