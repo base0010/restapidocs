@@ -139,6 +139,7 @@ For more information, please refer to our `documentation <link_to_your_documenta
 Technical Flow 
 ===============================
 Below is the general flow from Hosts through Core Network and our additons to Subscribers
-.. image:: https://www.mermaidchart.com/raw/cb4358eb-41ad-49b4-80ee-8b7494269724?theme=light&version=v0.1&format=svg
+
+.. image:: ./technical_flow.svg
    :width: 800
 
