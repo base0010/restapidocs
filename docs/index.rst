@@ -21,12 +21,14 @@ A Semaphore Network Host is an individual, DAO, or entity deploying host node an
 **Hardware Requirements:**
 
 - **Node Hardware:** 
-   The job of the node hardware is to monitor the on-chain Subscriber Registry and run a small CN
-   this can run on minimal hardware like Raspberry Pi.
+
+The job of the node hardware is to monitor the on-chain Subscriber Registry and run a small CN
+this can run on minimal hardware like Raspberry Pi.
 
 - **Radio Hardware:** 
-   The radio hardware will provide connectivity to subscribers;
-   we support COTS or FLOSS options both band and region agnostic.
+
+The radio hardware will provide connectivity to subscribers;
+we support COTS or FLOSS options both band and region agnostic.
 
 =======================================
 List of Tested Radio Host Hardware (eNodeB)
@@ -67,10 +69,10 @@ ______________________
    [SrsEPC Fork For SN]  (https://github.com/SemaphoreNetwork/semaphore_network_cn)
 
    Please follow below for more granular details and  setup.
-   [SrsEPC requirements](https://docs.srsran.com/projects/4g/en/next/app_notes/source/pi4/source/index.html)
+   `SrsEPC requirements <https://docs.srsran.com/projects/4g/en/next/app_notes/source/pi4/source/index.html>`
 
    You will also need to run the python hss bridge middleware alongside the forked HSS above
-   [Semaphore Network HSS Bridge] (https://github.com/SemaphoreNetwork/semaphore_network_hss_bridge)
+   `Semaphore Network HSS Bridge <https://github.com/SemaphoreNetwork/semaphore_network_hss_bridge>`
 
    
 
@@ -110,7 +112,7 @@ For ease of use, you can automatically register your Semaphore ETHSIM by being i
 
 - **Registering Semaphore ETHSIM On-Chain:**
   - User must visit be near a host for initial OTA registration, OR they can do it through the DApp below
-  - Add Subscriber Authentication Keypair to on-chain registry at [Semaphore Network Subscription](https://app.semaphore.network/subscribe).
+  - Add Subscriber Authentication Keypair to on-chain registry at `Semaphore Network Subscribe <https://app.semaphore.network/subscribe>`
 
 
 ETHSIM Security+
@@ -137,7 +139,7 @@ Semaphore Network addresses these challenges through several key improvements:
 
 2. **On-chain Subscriber Registry**: Subscriber public keys are stored on-chain in an immutable sovereign subscriber registry, similar to a telco HSS (Home Subscriber Server). This allows users to activate services, top-up their accounts with cryptocurrency, and perform other functions without the need for intermediaries, including potentially unreliable customer service.
 
-3. **Global Roaming Subscribership**: By storing subscriber information on-chain, Semaphore Network ensures a truly global roaming subscribership, enhancing accessibility and connectivity for users worldwide.
+3. **Global Roaming Subscription**: By storing subscriber information on-chain, Semaphore Network ensures a truly global roaming subscribership, enhancing accessibility and connectivity for users worldwide.
 
 Conclusion
 ----------
@@ -147,7 +149,7 @@ Semaphore Network's utilization of ETHSIM technology and innovative cryptographi
 
 Technical Flow 
 ===============================
-Below is the general flow from Hosts through Core Network and our additons to Subscribers
+Below is the general flow from Hosts through Core Network and out to Subscribers
 
 .. image:: ./technical_flow.svg
    :width: 800
@@ -156,7 +158,7 @@ Below is the general flow from Hosts through Core Network and our additons to Su
 Semaphore Network HSS Smart Contracts 
 ===============================
  You can find our Smart Contract implementation of the on-chain HSS subscriber registry here. In it's simplest form it's just a list of subscriber public keys; of which the private key is stored in the ETHSIM. This is crucial to the ECDH process as well as determining who is allowed on the network; the conditions of their subscription etc.  
-[Semaphore Network Subscriber Registry] (https://github.com/SemaphoreNetwork/semaphore-hss)
+`Semaphore Network Subscriber Registry <https://github.com/SemaphoreNetwork/semaphore-hss>`
 
 
 
