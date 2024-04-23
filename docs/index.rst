@@ -8,8 +8,6 @@ A Semaphore Network Host is an individual, DAO, or entity deploying host node an
 
 **Prerequisites to Become a Host**
 
-Hosts need to provide:
-
 1. **Physical Space:** A clear outdoor area with compliance for radio emissions.
 2. **Internet Access:** Outbound connection for web2 internet services.
 3. **Radio and Node Hardware:** Combination of node and radio hardware for network deployment.
