@@ -1,3 +1,9 @@
+Network Basics
+=================================
+.. image:: ./basic_network.png
+   :width: 600
+
+
 Hosting The Network
 =================================
 
@@ -80,7 +86,7 @@ This section focuses on subscribing to decentralized Semaphore Network Hosts' in
   - Device supports bands provided by local hosts.
 
 *Semaphore ETHSIM*
-  Subscribers will need to obtain or create their own Semaphore ETHSIM to connect to the Network. You can buy one from us at                       https://shop.semaphore.network or bring your own compatible smartcard.
+  Subscribers will need to obtain or create their own Semaphore ETHSIM to connect to the Network. You can buy one from us at https://shop.semaphore.network or bring your own compatible smartcard.
 
 
 **Subscriber Setup**
@@ -127,4 +133,12 @@ Conclusion
 Semaphore Network's utilization of ETHSIM technology and innovative cryptographic techniques represents a significant advancement in the field of telecommunications security and decentralization. By addressing the limitations of traditional systems, we provide users with greater control over their data and a more secure telecommunications experience.
 
 For more information, please refer to our `documentation <link_to_your_documentation_here>`_.
+
+
+
+Technical Flow 
+===============================
+Below is the general flow from Hosts through Core Network and our additons to Subscribers
+.. image:: https://www.mermaidchart.com/raw/cb4358eb-41ad-49b4-80ee-8b7494269724?theme=light&version=v0.1&format=svg
+   :width: 800
 
