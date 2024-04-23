@@ -80,7 +80,7 @@ This section focuses on subscribing to decentralized Semaphore Network Hosts' in
   - Device supports bands provided by local hosts.
 
 *Semaphore ETHSIM*
-  Subscribers will also need to obtain or create their own Semaphore ETHSIM to connect to the Network. You can buy one from us at                   https://shop.semaphore.network or bring your own compatible smartcard.
+  Subscribers will need to obtain or create their own Semaphore ETHSIM to connect to the Network. You can buy one from us at                       https://shop.semaphore.network or bring your own compatible smartcard.
 
 
 **Subscriber Setup**
