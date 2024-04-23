@@ -27,7 +27,7 @@ Hardware Freedom
 .. image:: ./hwfreedom_antennas.png
    :width: 600
 
-*Figure: A variety of front end options.*
+*Figure: A variety of COTS and FLOSS Radio Options.*
 
 **We do not gatekeep across hardware, locality or RF frontend**
 
