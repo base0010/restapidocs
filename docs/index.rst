@@ -157,7 +157,7 @@ Below is the general flow from Hosts through Core Network and out to Subscribers
 
 Semaphore Network HSS Smart Contracts 
 ===============================
- You can find our Smart Contract implementation of the on-chain HSS subscriber registry here. In it's simplest form it's just a list of subscriber public keys; of which the private key is stored in the ETHSIM. This is crucial to the ECDH process as well as determining who is allowed on the network; the conditions of their subscription etc.  
+You can find our Smart Contract implementation of the on-chain HSS subscriber registry here. In it's simplest form it's just a list of subscriber public keys; of which the private key is stored in the ETHSIM. This is crucial to the ECDH process as well as determining who is allowed on the network; the conditions of their subscription etc.  
 `Semaphore Network Subscriber Registry <https://github.com/SemaphoreNetwork/semaphore-hss>`
 
 
