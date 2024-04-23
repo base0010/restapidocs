@@ -10,21 +10,21 @@ A Semaphore Network Host is an individual, DAO, or entity deploying host node an
 
 Hosts need to provide:
 
-1. **Physical Space:** A clear outdoor area with legal compliance for radio emissions.
+1. **Physical Space:** A clear outdoor area with compliance for radio emissions.
 2. **Internet Access:** Outbound connection for web2 internet services.
 3. **Radio and Node Hardware:** Combination of node and radio hardware for network deployment.
 
 **Hardware Requirements:**
 
-- **Node Hardware:** Monitors Semaphore Subscriber Registry, can run on limited hardware like Raspberry Pi.
-- **Radio Hardware:** Supports COTS or FOSS options, band and region agnostic.
+- **Node Hardware:** The job of the node hardware is to monitor the on-chain Subscriber Registry and a small CN; this can run on minimal hardware like Raspberry Pi.
+- **Radio Hardware:** The radio hardware will provide connectivity to subscribers; we support COTS or FLOSS options;band and region agnostic.
 
 
 Hardware Freedom
-  You are free to choose what works best for your wallet, local DAO community and country's radio frequency regulations; up to and including running 
-  a completely FOSS hardware stack. Macro to femto sized setups.
+  You are free to choose what works best for your wallet, local DAO size and country's radio frequency regulations; up to and including running 
+  a completely FLOSS hardware stack. Macro to femto sized setups.
 
-![Hardware Freedom](placeholder_image.jpg)
+![Hardware Freedom](hwfreedom_antennas.png)
 *Figure: A variety of front end options.*
 
 **We do not gatekeep across hardware, locality or RF frontend**
