@@ -3,7 +3,7 @@ Hosting The Network
 
 **What Is A Semaphore Network Host?**
 
-A Semaphore Network Host is an individual, DAO, or entity deploying host node and radio hardware to provide Semaphore Network's Universal Basic Internet coverage.
+A Semaphore Network Host is an individual, DAO, or entity deploying host node and radio hardware to provide Semaphore Network's Universal Basic Internet coverage in exchange for stablecoin payments and points.
 
 
 **Prerequisites to Become a Host**
@@ -16,20 +16,11 @@ Hosts need to provide:
 
 **Hardware Requirements:**
 
-- **Node Hardware:** The job of the node hardware is to monitor the on-chain Subscriber Registry and a small CN; this can run on minimal hardware like Raspberry Pi.
-- **Radio Hardware:** The radio hardware will provide connectivity to subscribers; we support COTS or FLOSS options;band and region agnostic.
+- **Node Hardware:** The job of the node hardware is to monitor the on-chain Subscriber Registry and a small CN
+    this can run on minimal hardware like Raspberry Pi.
 
-
-Hardware Freedom
-  You are free to choose what works best for your wallet, local DAO size and country's radio frequency regulations; up to and including running 
-  a completely FLOSS hardware stack. Macro to femto sized setups.
-
-.. image:: ./hwfreedom_antennas.png
-   :width: 600
-
-*Figure: A variety of COTS and FLOSS Radio Options.*
-
-**We do not gatekeep across hardware, locality or RF frontend**
+- **Radio Hardware:** The radio hardware will provide connectivity to subscribers;
+    we support COTS or FLOSS options; band and region agnostic.
 
 =======================================
 List of Tested Radio Host Hardware (eNodeB)
@@ -46,6 +37,17 @@ List of Tested Radio Host Hardware (eNodeB)
  ================== ============ ========== ======= 
 
 
+Hardware Freedom
+  You are free to choose what works best for your wallet, local DAO size and country's radio frequency regulations; up to and including running 
+  a completely FLOSS hardware stack. Macro to femto sized setups.
+
+.. image:: ./hwfreedom_antennas.png
+   :width: 600
+
+*Figure: A variety of COTS and FLOSS Radio Options.*
+
+**We do not gatekeep across hardware, locality or RF frontend**
+
 
 **Setup**
 ______________________
@@ -53,7 +55,7 @@ ______________________
 **Setup**
 
 - **Node Setup:**
-  - Run EPC/CN and python middleware on hardware of your choosing
+  - Run EPC/CN and bridge middleware on hardware of your choosing
   - Get Public Key from middleware to register host on-chain.
 
 - **Radio Unit Hardware Setup:**
@@ -74,22 +76,22 @@ This section focuses on subscribing to decentralized Semaphore Network Hosts' in
 **Requirements**
 
 *User Equipment*
-  Subscribers need a device to connect to the network, users can bring their own COTS LTE/5G user equpiment; phone, modem etc. so long as the below are true.
+  Subscribers need a device to connect to the network, users can bring their own COTS LTE/5G user equpiment; phone, modem etc. so long as the      below are true.
 
   - Device has a physical SIM-card slot.
   - Device supports bands provided by local hosts.
 
-*Semaphore USIM*
-  Subscribers will also need to obtain or create their own Semaphore USIM to connect to the Network. You can buy one from us at                        https://shop.semaphore.network or bring your own compatible smartcard.
+*Semaphore ETHSIM*
+  Subscribers will also need to obtain or create their own Semaphore ETHSIM to connect to the Network. You can buy one from us at                   https://shop.semaphore.network or bring your own compatible smartcard.
 
 
 **Setup**
 
-- **Semaphore USIM Setup:**
+- **Semaphore ETHSIM Setup:**
   - Users must insert the Semaphore Network USIM into their phone
-  - User must visit be near a host for initial OTA registration, OR they can do it through the DApp below
 
-- **Registering Semaphore USIM On-Chain:**
+- **Registering Semaphore ETHSIM On-Chain:**
+  - User must visit be near a host for initial OTA registration, OR they can do it through the DApp below
   - Add Subscriber Authentication Keypair to on-chain registry at [Semaphore Network Subscription](https://app.semaphore.network/subscribe).
 
 
