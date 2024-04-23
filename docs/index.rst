@@ -64,7 +64,7 @@ ______________________
   - Run EPC/CN and bridge middleware on hardware of your choosing ex. Raspberry Pi, binaries provided for aarch64 and x86_64
 
    The EPC/CN is currently implemented in a fork of SRSRAN (srsepc) found here: 
-   [SrsEPC Fork For SN]  (https://github.com/SemaphoreNetwork/semaphore-hss)
+   [SrsEPC Fork For SN]  (https://github.com/SemaphoreNetwork/semaphore_network_cn)
 
    Please follow below for more granular details and  setup.
    [SrsEPC requirements](https://docs.srsran.com/projects/4g/en/next/app_notes/source/pi4/source/index.html)
@@ -144,9 +144,6 @@ Conclusion
 
 Semaphore Network's utilization of ETHSIM technology and innovative cryptographic techniques represents a significant advancement in the field of telecommunications security and decentralization. By addressing the limitations of traditional systems, we provide users with greater control over their data and a more secure telecommunications experience.
 
-For more information, please refer to our `documentation <link_to_your_documentation_here>`_.
-
-
 
 Technical Flow 
 ===============================
@@ -154,4 +151,12 @@ Below is the general flow from Hosts through Core Network and our additons to Su
 
 .. image:: ./technical_flow.svg
    :width: 800
+
+
+Semaphore Network HSS Smart Contracts 
+===============================
+ You can find our Smart Contract implementation of the on-chain HSS subscriber registry here. In it's simplest form it's just a list of subscriber public keys; of which the private key is stored in the ETHSIM. This is crucial to the ECDH process as well as determining who is allowed on the network; the conditions of their subscription etc.  
+[Semaphore Network Subscriber Registry] (https://github.com/SemaphoreNetwork/semaphore-hss)
+
+
 
