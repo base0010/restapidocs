@@ -18,7 +18,7 @@ A Semaphore Network Host is an individual, DAO, or entity deploying host node an
     this can run on minimal hardware like Raspberry Pi.
 
 - **Radio Hardware:** The radio hardware will provide connectivity to subscribers;
-    we support COTS or FLOSS options; band and region agnostic.
+    we support COTS or FLOSS options;  band and region agnostic.
 
 =======================================
 List of Tested Radio Host Hardware (eNodeB)
@@ -61,7 +61,7 @@ ______________________
   - Configure radio unit's EPC/CN address to match Host Node.
 
 - **Semaphore Host Registration:**
-  - Register host using public key from middleware at [Semaphore Network Host DAO](https://app.semaphore.network/host).
+  - Register host through the bridge middleware at or input your public key at `Semaphore Network Host DAO <https://app.semaphore.network/host>`.
 
 
 
@@ -83,7 +83,9 @@ This section focuses on subscribing to decentralized Semaphore Network Hosts' in
   Subscribers will also need to obtain or create their own Semaphore ETHSIM to connect to the Network. You can buy one from us at                   https://shop.semaphore.network or bring your own compatible smartcard.
 
 
-**Setup**
+**Subscriber Setup**
+
+For ease of use, you can automatically register your Semaphore ETHSIM by being in range of a network host. Alternaively we have a manual DApp that provides this functionality should you not be in a covered area.
 
 - **Semaphore ETHSIM Setup:**
   - Users must insert the Semaphore Network USIM into their phone
