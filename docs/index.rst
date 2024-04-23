@@ -20,11 +20,13 @@ A Semaphore Network Host is an individual, DAO, or entity deploying host node an
 
 **Hardware Requirements:**
 
-- **Node Hardware:** The job of the node hardware is to monitor the on-chain Subscriber Registry and a small CN
+- **Node Hardware:** 
+   The job of the node hardware is to monitor the on-chain Subscriber Registry and a small CN
     this can run on minimal hardware like Raspberry Pi.
 
-- **Radio Hardware:** The radio hardware will provide connectivity to subscribers;
-    we support COTS or FLOSS options;  band and region agnostic.
+- **Radio Hardware:** 
+   The radio hardware will provide connectivity to subscribers;
+    we support COTS or FLOSS options both band and region agnostic.
 
 =======================================
 List of Tested Radio Host Hardware (eNodeB)
@@ -59,15 +61,25 @@ ______________________
 **Setup**
 
 - **Node Setup:**
-  - Run EPC/CN and bridge middleware on hardware of your choosing
-  - Get Public Key from middleware to register host on-chain.
+  - Run EPC/CN and bridge middleware on hardware of your choosing ex. Raspberry Pi, binaries provided for aarch64 and x86_64
+
+   The EPC/CN is currently implemented in a fork of SRSRAN (srsepc) found here: 
+   [SrsEPC Fork For SN]  (https://github.com/SemaphoreNetwork/semaphore-hss)
+
+   Please follow below for more granular details and  setup.
+   [SrsEPC requirements](https://docs.srsran.com/projects/4g/en/next/app_notes/source/pi4/source/index.html)
+
+   You will also need to run the python hss bridge middleware alongside the forked HSS above
+   [Semaphore Network HSS Bridge] (https://github.com/SemaphoreNetwork/semaphore_network_hss_bridge)
+
+   
 
 - **Radio Unit Hardware Setup:**
   - Follow manufacturer's instructions for installation and mounting.
-  - Configure radio unit's EPC/CN address to match Host Node.
+  - Configure radio unit's EPC/CN address to match that of the Node EPC/CN above.
 
 - **Semaphore Host Registration:**
-  - Register host through the bridge middleware at or input your public key at `Semaphore Network Host DAO <https://app.semaphore.network/host>`.
+  - Register host through the bridge middleware or register your pubkey through the DApp at `Semaphore Network Host DAO <https://app.semaphore.network/host>`.
 
 
 
