@@ -66,13 +66,13 @@ ______________________
   - Run EPC/CN and bridge middleware on hardware of your choosing ex. Raspberry Pi, binaries provided for aarch64 and x86_64
 
    The EPC/CN is currently implemented in a fork of SRSRAN (srsepc) found here: 
-   [SrsEPC Fork For SN]  (https://github.com/SemaphoreNetwork/semaphore_network_cn)
+   `SrsEPC Fork https://github.com/SemaphoreNetwork/semaphore_network_epc`_
 
    Please follow below for more granular details and  setup.
-   `SrsEPC requirements <https://docs.srsran.com/projects/4g/en/next/app_notes/source/pi4/source/index.html>`
+   `SrsEPC requirements <https://docs.srsran.com/projects/4g/en/next/app_notes/source/pi4/source/index.html>`_
 
    You will also need to run the python hss bridge middleware alongside the forked HSS above
-   `Semaphore Network HSS Bridge <https://github.com/SemaphoreNetwork/semaphore_network_hss_bridge>`
+   `Semaphore Network HSS Bridge <https://github.com/SemaphoreNetwork/semaphore_network_hss_bridge>`_
 
    
 
@@ -81,7 +81,7 @@ ______________________
   - Configure radio unit's EPC/CN address to match that of the Node EPC/CN above.
 
 - **Semaphore Host Registration:**
-  - Register host through the bridge middleware or register your pubkey through the DApp at `Semaphore Network Host DAO <https://app.semaphore.network/host>`.
+  - Register host through the bridge middleware or register your pubkey through the DApp at `Semaphore Network Host DAO <https://app.semaphore.network/host>`_
 
 
 
@@ -112,7 +112,7 @@ For ease of use, you can automatically register your Semaphore ETHSIM by being i
 
 - **Registering Semaphore ETHSIM On-Chain:**
   - User must visit be near a host for initial OTA registration, OR they can do it through the DApp below
-  - Add Subscriber Authentication Keypair to on-chain registry at `Semaphore Network Subscribe <https://app.semaphore.network/subscribe>`
+  - Add Subscriber Authentication Keypair to on-chain registry at `Semaphore Network Subscribe <https://app.semaphore.network/subscribe>`_
 
 
 ETHSIM Security+
